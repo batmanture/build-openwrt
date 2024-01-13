@@ -29,7 +29,7 @@ Modify default IP（FROM 192.168.1.1 CHANGE TO 192.168.101.202）
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
-#svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
+# svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
